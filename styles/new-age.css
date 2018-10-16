@@ -14,14 +14,6 @@
     font-family: "CircularStd-Book";
     src: url('CircularStd-Book.otf') format('opentype');
 
-    font-family: 'weathericons';
-    src: url('fonts/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/weathericons-regular-webfont.woff2') format('woff2'),
-    url('fonts/weathericons-regular-webfont.woff') format('woff'),
-    url('fonts/weathericons-regular-webfont.ttf') format('truetype'),
-    url('fonts/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 /*EXAMPLE BUTTON TO TOP*/
@@ -265,6 +257,14 @@ p.n-p {
     position: absolute;
     bottom: -74px;
     left: -28px;
+}
+
+.fletxa-d-l:before {
+    content: url(img/fletxa-d.png);
+    position: absolute;
+    bottom: -107px;
+    transform: rotate(30deg);
+    left: -64px;
 }
 
 .prov:before {
