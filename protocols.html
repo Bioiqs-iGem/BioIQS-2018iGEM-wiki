@@ -70,10 +70,10 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item js-scroll-trigger" href="d-overview.html">Overview</a>
                                 <a class="dropdown-item js-scroll-trigger" href="modelling.html">Modelling</a>
-                                <a class="dropdown-item js-scroll-trigger" href="standaritzation.html">PCR Standaritzation</a>
+                                <a class="dropdown-item js-scroll-trigger" href="standaritzation.html">PCR Standardization</a>
                             </div>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outside the Lab</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -81,7 +81,7 @@
                                 <a class="dropdown-item js-scroll-trigger" href="int-human-practices.html">Integrated Human Practices</a>
                                 <a class="dropdown-item js-scroll-trigger" href="education.html">Education &amp; Engagement</a>
                                 <a class="dropdown-item js-scroll-trigger" href="wiki.html">Wiki editing tutorial</a>
-                                
+
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -104,293 +104,457 @@
                 <div class="col-lg-7 my-auto">
                     <div class="header-content">
                         <h1 class="mb-5">Wet Lab | Protocols</h1>
-                        <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Have a look!</a>
+                        <a href="#collaborate" class="btn btn-outline btn-xl js-scroll-trigger">Have a look!</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="project text-center" id="project">
+    <section class="collaborate text-center" id="collaborate">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 mx-auto">
-                    <h2 class="section-heading orange">Project description</h2>
-                    <h3 class="orange">We would like to present you a brief description of our project on celiac disease:</h3>
-
+                    <h2 class="section-heading orange">Protocols</h2>
                     <div class="col-md-auto">
-                        <p class="book orange">Our project is based on the design of a <b>personalized gluten sensor</b> by using the common tools of synthetic biology. There are already several sensors that are able to detect gluten in the food. However, there are milestones that still have not been overcome. We propose a robust model in which the HLA molecule of a patient is expressed and used as a sensor to detect specific reactive gluten epitopes.</p>
+                        <h4 class="book orange block-sept comas"><i>The protocols that we have been using over the summer are available below. They all meet high-quality standards, as they were designed together with the Supervisors of our Team. We share them in the interest of reproducibility.</i></h4>
                     </div>
-                    <a class="js-scroll-trigger" href="#t-project"><span class="arrow down"></span></a>
+                </div>
+                <div class="col-md-12 mx-auto block-sept">
+                    <a class="js-scroll-trigger a-arrow" href="#protocols"><span class="arrow down"></span></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="t-project" id="t-project">
+
+
+    <!--Accordion Protocols-->
+    <!--Accordion wrapper-->
+    <section id="protocols">
         <div class="container">
-            <div class="row justify-content-center cnt">
-                <div class="col-md-5 image">
-                    <img src="styles/img/t-cell.png">
-                </div>
-                <div class="col-md-7 text-description lines">
-                    <div class="row justify-content-center">
-                        <div class="col-md-11 col-lg-7">
-                            <p class="text-b"><b>Coeliac disease (CD)</b> is an autoimmune disorder that is closely related with HLA (Human leukocyte antigen), a type of receptor that are located in the surface of almost every cell of a human tissue, including white blood cells.</p>
+            <div class="accordion md-accordion accordion-3 z-depth-1-half row" id="accordionEx5" role="tablist" aria-multiselectable="true">
+
+
+                <div class="col-xs-12 col-sm-12">
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_01" aria-expanded="false" aria-controls="collapse_01">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 1. GENOMIC DNA EXTRACTION FROM SALIVA <i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+                        <!-- Card body -->
+                        <div id="collapse_01" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <h4 class="orange">Reagents</h4>
+                                <ul>
+                                    <li class="orange">Sterile saline solution (0.17 M).</li>
+                                    <li class="orange">Sterile PBS: 0.01M phosphate buffer, 0.15M NaCl at pH 7.4.</li>
+                                    <li class="orange">Stock Proteinasa K at 1mg/mL in PBS.</li>
+                                    <li class="orange">Depressor.</li>
+                                    <li class="orange">Conical tubes (15 mL).</li>
+                                    <li class="orange">Sterile Eppendorfs (1.5 mL).</li>
+                                </ul>
+                                <h4 class="orange">Steps</h4>
+                                <ol>
+                                    <li class="orange">Perform a wash out of the mouth with sterile saline solution and discard the liquid.</li>
+                                    <li class="orange">Scratch lightly the mucous membrane with a depressor.</li>
+                                    <li class="orange">Perform a vigorous wash out of the mouth with 10 mL of sterile saline solution and transfer the volume to a sterile 15 mL conical tube. Repeat to obtain 2 samples of 10 mL.</li>
+                                    <li class="orange">Centrifuge the samples 10 min at 3000 rpm. Discard the supernatant carefully by decantation. Avoid pellet detachment. </li>
+                                    <li class="orange">Resuspend the pellet with 1 mL of DNAsa-free PBS. Transfer the volume to a clean Eppendorf.</li>
+                                    <li class="orange">Centrifuge 10 min at 6000 rpm. </li>
+                                    <li class="orange">Discard the supernatant and resuspend with 1 mL of DNAsa-free PBS. </li>
+                                    <li class="orange">Centrifuge again 10 min at 6000 rpm. </li>
+                                    <li class="orange">Resuspend the last pellet with 100-400 μl of PBS (assess the amount of pellet).</li>
+                                    <li class="orange">Transfer 90 &micro;l of the last solution to a new clean Eppendorf and add 10 &micro;l of proteinase K solution of 1 mg/mL to a final concentration of 0.1 mg/mL. </li>
+                                    <li class="orange">Incubate the sample 1 h to 55 °C in a bath. </li>
+                                    <li class="orange">Then move it to another bath at 100 °C and incubate 10 min. </li>
+                                    <li class="orange">Cool down the sample with ice and then store it at – 20 °C till use.</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row cnt">
-                <div class="col-md-7">
-                    <p class="apart fletxa">These molecules are responsible for the correct discrimination between what is self and foreign proteins, guaranteeing the correct immune response against foreign agents that can cause infections.
-                    </p>
-                </div>
-                <div class="col-3 image microscopi">
-                </div>
+                    <!-- Accordion card -->
 
-            </div>
-
-            <div class="row cnt block-desc">
-                <div class="col-md-6 text-description">
-                    <p class="text-b fletxa-d">
-                        Within the HLA protein family there are the highly polymorphic HLA-DQ, which means that
-                        <b>there are a lot of existing genetic variants of these molecules</b>. Some of these HLA-DQ variants are able to recognize different gluten epitopes (aminoacid sequence of a protein) and present them to the T cells. More specifically, 25% of the general population carry the HLA-DQ that can recognize gluten derived epitopes, but only 1% of the population suffer from coeliac disease.
-                    </p>
-
-                </div>
-                <div class="col-md-6 end">
-                    <p class="apart yellow">The reason of such fact is that the inflammatory reaction is triggered by some T cells that can sense the gluten epitope presented by the HLA-DQ.</p>
-                    <!--                    <img src="styles/img/hla-solo.png">-->
-                </div>
-
-            </div>
-
-            <div class="row justify-content-center cnt">
-                <div class="col-md-4 image">
-                    <img src="styles/img/hla-solo.png">
-                </div>
-                <div class="col-md-7 text-description">
-                    <div class="row justify-content-center prov">
-                        <div class="col-sm-9">
-                            <p class="text-b">Understanding why the inflammatory response is triggered by a certain type of T cells upon epitope presentation by HLA-DQ molecules is essential to uncover the mechanism of CD. Since the first step for the immune response activation is the recognition and binding of the gluten epitope to the HLA-DQ receptor. </p>
+                    <!-- Accordion card -->
+                    <div class="card-member">
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_02" aria-expanded="false" aria-controls="collapse_02">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 2. PCRS FOR GENE EXTRACTION<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+                        <!-- Card body -->
+                        <div id="collapse_02" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row block-sept">
+                                            <div class="col-md-4 button">
+                                                <a class="text-transform" href="files/pcr-protocols-bio-iqs.pdf" target="_blank">View &amp; download PDF <i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8 end">
-                    <p class="apart yellow">The development of a personalized sensor to determine reactive epitopes could help to better understand the disease and would also allow the screening of those foods that could potentially trigger an immune response to the patient.</p>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_03" aria-expanded="false" aria-controls="collapse_03">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 3. BAND EXTRACTION (QIAGEN) <i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_03" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <h4 class="orange">This protocol is designed to extract and purify DNA of 70 bp to 10 kb from standard or low-melt agarose gels in TAE or TBE buffer.</h4>
+
+                                <ol>
+                                    <li class="orange">Excise the DNA fragment from the agarose gel with a clean, sharp scalpel.</li>
+                                    <li class="orange">Weight the gel slice in a colorless tube. Add 3 volumes of Buffer QG to 1 volume of gel (100mg - 100&micro;l).</li>
+                                    <li class="orange">Incubate at 50ºC for 10 min. TO help dissolve gel, mix by vortexing the tube every 2-3 min during the incubation.</li>
+                                    <li class="orange">After the gel slice has dissolved completely, check that the color of the mixture is yellow.</li>
+                                    <li class="orange">Add 1 gel volume of isopropanol to the sample and mix.</li>
+                                    <li class="orange">Place a QIA spin column in a provided 2 mL collection tube.</li>
+                                    <li class="orange">To bind DNA, apply the sample to the QIA spin column, centrifuge for 1 min.</li>
+                                    <li class="orange">Discard flow-through and place QIA Spin column back in the same collection tube.</li>
+                                    <li class="orange">Recommended: Add 0.5 mL of Buffer QG to QIAquick column and centrifuge for 1 min.</li>
+                                    <li class="orange">To wash, add 0.75 mL of Buffer PE to QIAspin column and centrifuge for 1 min.</li>
+                                    <li class="orange">Discard the flow-through and centrifuge the QIA spin column for an additional 1 min at 13.000 rpm.</li>
+                                    <li class="orange">To elute DNA, add 40 &micro;l of Buffer EB.</li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_04" aria-expanded="false" aria-controls="collapse_04">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 4. ELECTROCOMPETENT PREPARATION<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_04" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <h4 class="orange">This protocol is designed to extract and purify DNA of 70 bp to 10 kb from standard or low-melt agarose gels in TAE or TBE buffer.</h4>
+
+                                <ol>
+                                    <li class="orange">Grow overnight, shaking at 37ºC.</li>
+                                    <li class="orange"> Inoculate the overnight culture volume need to achieve OD600 of 0.1-0.2 into 100ml LB.</li>
+                                    <li class="orange"> Grow at 37ºC, shaking at 250-300rpm, until density reaches OD600 of 0.5-0.6. </li>
+                                    <li class="orange">Trasnfer cultures into pre-chulled 50mL centrifuge tubes </li>
+                                    <li class="orange"> Spin cells for 10 minutes at 5000rpm at 4ºC.</li>
+                                    <li class="orange"> Pour off supernatant and resuspend the pellet in 40 mL sterile ice-cold 10% glycerol </li>
+                                    <li class="orange"> Spin as in step 7. </li>
+                                    <li class="orange"> Repeat wash twice more with 20 ml and 10 ml of ice-cold 10% glycerol (steps 8 and 9).</li>
+                                    <li class="orange"> Pour off supernatant and resuspend the last pellet in 400-600 &micro;l of ice-cold 10% glycerol.</li>
+                                    <li class="orange"> Aliquot 120 &micro;L cells per pre-chilled microcentrifuge tubes on ice.</li>
+                                    <li class="orange"> Store aliquots at –80ºC.</li>
+                                    <li class="orange"> Test cells for transformation efficiency and contamination immediately.</li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_05" aria-expanded="false" aria-controls="collapse_05">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 5. DIGESTION of pET22b<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+
+                        <div id="collapse_05" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <ol>
+                                    <li class="orange">Grow overnight, shaking at 37C.</li>
+                                    <li class="orange"> Add 1 &micro;l of NEBuffer3.1.</li>
+                                    <li class="orange"> Add 1 &micro;l of Ndel.</li>
+                                    <li class="orange"> Add 1 &micro;l of SalI</li>
+                                    <li class="orange"> Add 0.5-1 &micro;g plasmid DNA.</li>
+                                    <li class="orange"> Add DNAsa-free water up to 10 &micro;l.</li>
+                                    <li class="orange"> Incubate 1.5h at 37°C.</li>
+                                    <li class="orange"> Incubate the sample 20 min at 80°C to disable restriction enzymes.</li>
+                                    <li class="orange"> Froze the samples at -20°C.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_06" aria-expanded="false" aria-controls="collapse_06">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 6. LIGATION PROTOCOL WITH T4 DNA LIGASE<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+
+                        <div id="collapse_06" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <h4 class="orange"> This protocol uses a 1:3 (vector:insert) ratio. Depending the vector this ratio shall be optimized. The total amount of DNA can be also changed.</h4>
+                                <ol>
+                                    <li class="orange"> Add 2 &micro;l of T4 DNA Ligase Reaction Buffer.</li>
+                                    <li class="orange"> Add 0.020 pmol of vector DNA. </li>
+                                    <li class="orange"> Add 0.060 pmol of insert DNA. </li>
+                                    <li class="orange"> Add DNAsa-free water up to 19 &micro;l. </li>
+                                    <li class="orange"> Add 1 &micro;l of T4 DNA Ligase.</li>
+                                    <li class="orange"> Incubate overnight at 16 °C or 15-20 minutes at room temperature.</li>
+                                    <li class="orange"> Heat inactivate at 65°C for 10 minutes.</li>
+                                    <li class="orange"> Freeze the samples at -20°C.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_07" aria-expanded="false" aria-controls="collapse_07">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 7. ELECTROPORATION, COMPETENT CELLS TRANSFORMATION<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_07" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <ol>
+                                    <li class="orange"> Thaw electrocompetent cells on ice..</li>
+                                    <li class="orange"> Transfer 50 &micro;l of electrocompetent cells to a pre-chilled electroporation cuvette with 1 mm gap.</li>
+                                    <li class="orange"> Add 1-2 &micro;l (10 pg - 100 ng) of the DNA to electrocompetent cells.</li>
+                                    <li class="orange"> Mix carefully and slowly by pipetting up and down. </li>
+                                    <li class="orange"> Once DNA is added to the cells, incubate 1 minute on ice.</li>
+                                    <li class="orange"> Perform electroporation at 1700-1800V. </li>
+                                    <li class="orange"> Add 950 &micro;l of room-temperature LB media to the cuvette immediately after electroporation.</li>
+                                    <li class="orange"> Mix carefully and slowly by pipetting up and down and transfer the volume to a clean sterile tub.</li>
+                                    <li class="orange"> Place the tube at 37°C for 60 minutes. Shake vigorously (250 rpm) or rotate.</li>
+                                    <li class="orange"> Warm selection plates to 37°C.</li>
+                                    <li class="orange"> Spread 100 &micro;l of the cells onto the plates. If desired, centrifuge the remaining volume (900 &micro;l), and resuspend the pellet in 100 &micro;l of LB. Plate this last volume in a selection plate.</li>
+                                    <li class="orange"> Incubate overnight at 37°C. </li>
+                                </ol>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_08" aria-expanded="false" aria-controls="collapse_08">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 8. COLONY PCR<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_08" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_09" aria-expanded="false" aria-controls="collapse_09">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 9. SDS-PAGE BUFFERS<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_09" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <h4 class="orange">Reagents</h4>
+                                <ul>
+                                    <li class="orange">Electrophoresis Buffer 10x: 30 g Tris-base (Merck) 144 g Glycine (Merck) 10 g SDS (Scharlau) Fill to 1 L with H2O Milli-Q.</li>
+                                    <li class="orange"> Sample Buffer 5x: 3 ml H2O Milli-Q 1 ml Solution C 2 ml glycerol (Merck) 1.6 ml Solution D 0.4 ml &beta;- mercaptoethanol (Bio-Rad) 0.5 mg bromophenol blue (Bio- Rad) (small spatula).</li>
+                                    <li class="orange">Solution A: 30% acrylamide, 2.7 % in bis- acrylamide: Solution acrylamide/bis- acrylamide 30% Mix ratio 29:1.</li>
+                                    <li class="orange">Solution B: 1.5 M Tris-HCl 9.08 g Tris-base (Merck) Add 40 ml H2O Milli-Q Adjust to pH 8.8 with HCl 5N Fill to 50 ml with H2O Milli-Q.</li>
+                                    <li class="orange">Solution C: 0.5 M Tris-HCl 3.0 g Tris-base (Merck) Add 30 ml of H2O Milli-Q Adjust to pH 6.8 with HCl 5N Fill to 50 ml with H2O Milli-Q.</li>
+                                    <li class="orange">Solution D: 10%(w/V) SDS 10 g SDS (Scharlau) Fill to 100 ml with H2O Milli-Q.</li>
+                                    <li class="orange">Solution G: Ammonium Persulfate 20% (w/V), 500 mg (NH4)2S2O7 (Bio-Rad) 2.5 ml H2O Mill-Q.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_010" aria-expanded="false" aria-controls="collapse_010">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 10. GEL PREPARATION<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_010" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_011" aria-expanded="false" aria-controls="collapse_011">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 11. AKTA PURIFICATION (Strep-Trap)<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_011" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_012" aria-expanded="false" aria-controls="collapse_012">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 12. CELL LYSIS<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_012" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_014" aria-expanded="false" aria-controls="collapse_014">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 13. INCLUSION BODIES SOLUBILISATION<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_014" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card-member">
+
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading5">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse_015" aria-expanded="false" aria-controls="collapse_015">
+                                <h3 class="mb-0 mt-3 title-accordion orange-intense">
+                                    Protocol 14. COMASSIE STAINING<i class="fa fa-angle-down rotate-icon fa-2x"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!-- Card body -->
+                        <div id="collapse_015" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx5">
+                            <div class="card-body">
+                                <p class="orange">I would describe Marc as a well-organized, self-disciplined and resourceful scientific. He always finds a way to solve any problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+
+
                 </div>
 
             </div>
-            <div class="row justify-content-center cta">
-                <div class="col-sm-3 button">
-                    <a href="#objectiv" class="text-transform js-scroll-trigger">Look our objectives!</a>
-                </div>
-            </div>
+            <!--/.Accordion wrapper-->
         </div>
     </section>
+    <!-- End accordion protocols-->
 
-
-    <section class="objectiv text-center" id="objectiv">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <h2 class="section-heading orange">Objectives</h2>
-                    <h3 class="orange">Here there are:</h3>
-
-                    <div class="col-md-auto orange">
-                        <p class="book">In our iGEM Project we will design a
-                            <b>personalized gluten sensor</b> through a synthetic biology approach. To do so, we decided to build a model based on the HLA expression of the patient which will be coupled to a sensor, allowing the detection of reactive epitopes. The main specificities of our sensor are described as follows:</p>
-                    </div>
-                    <a class="js-scroll-trigger" href="#t-objectives"><span class="arrow down"></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="t-objectives" id="t-objectives">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 right">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="apart big">first</p>
-                                    <p class="text-b">Since our sensor will be built <b>according to the patient HLA</b>, it will allow the detection of specific reactive epitopes independently of the food source.</p>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="row justify-content-center">
-                                
-                                <div class="col-md-3 center">
-                                <img class="img" src="img/diagn.png" alt="Card image cap">
-                                </div>
-                                <div class="col-md-3 center">
-                                <img class="img" src="img/dna.png" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-6 left">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="apart big">second</p>
-                            <p class="text-b">Additionally, our sensor will be able to detect reactive epitopes even in
-                                <b>fermented foods.</b></p>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-3 center">
-                                    <img class="img" src="img/beer.png" alt="Card image cap">
-                                </div>
-                                <div class="col-3 center">
-                                    <img class="img" src="img/croissant.png" alt="Card image cap">
-                                </div>
-                                <div class="col-3 center">
-                                    <img class="img" src="img/ramen.png" alt="Card image cap">
-                                </div>
-                                <div class="col-3 center">
-                                    <img class="img" src="img/salad.png" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row separation">
-                <div class="col-md-6 right">
-                    <div class="justify-content-center">
-                        <p class="apart big">third</p>
-                        <!--<img class="image" src="img/epitop.png" alt="Card image cap">-->
-                        <p class="text-b">The methodology implemented in our sensor could be used for the <b>identification of new reactive epitopes</b> and unknown allelic variants.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 left">
-                    <p class="apart big">fourth</p>
-                    <p class="text-b">Our design requires<b> only a DNA sample of the patient.</b> Therefore, the methodology and application of our sensor could be extended for the detection of other HLA related disorders.</p>
-<!--                    <img class="img" src="img/win.png" alt="Card image cap">-->
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-
-
-    <!--    <section class="features" id="features">-->
-    <!--
-        <div class="container">
-            <div class="section-heading text-center">
-                <h2>Unlimited Features, Unlimited Fun</h2>
-                <p class="text-muted">Check out what you can do with this app theme!</p>
-                <hr>
-            </div>
--->
-    <!--            <div ⁄class="row">-->
-    <!--                <div class="col-lg-4 my-auto">-->
-    <!--
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
--->
-    <!--
-                                <div class="screen">
-                                     Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! 
-                                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="button">
--->
-    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-    <!--                                </div>-->
-    <!--
-                            </div>
-                        </div>
-                    </div>
-                </div>
--->
-    <!--
-                <div class="col-lg-8 my-auto">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="feature-item">
-                                    <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>Device Mockups</h3>
-                                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-item">
-                                    <i class="icon-camera text-primary"></i>
-                                    <h3>Flexible Use</h3>
-                                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Free to Use</h3>
-                                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Open Source</h3>
-                                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
--->
-    <!--
-                </div>
-            </div>
-        </div>
-    </section>
--->
-
-    <!--
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Stop waiting.<br>Start building.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-            </div>
-        </div>
-        <div class="overlay"></div>
-    </section>
--->
-
-    <!--
-    <section class="contact bg-primary" id="contact">
-        <div class="container">
-            <h2>We
-                <i class="fas fa-heart"></i> new friends!</h2>
-            <ul class="list-inline list-social">
-                <li class="list-inline-item social-twitter">
-                    <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-                </li>
-                <li class="list-inline-item social-facebook">
-                    <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-                </li>
-                <li class="list-inline-item social-google-plus">
-                    <a href="#">
-              <i class="fab fa-google-plus-g"></i>
-            </a>
-                </li>
-            </ul>
-        </div>
-    </section>
--->
 
     <footer>
         <div class="container">

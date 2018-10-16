@@ -117,8 +117,16 @@ p.n-p {
     text-shadow: 1px 1px #ffdfa58c;
 }
 
+.b-orange-intense {
+    background-color: #ff9800;
+}
+
 .orange-medium {
     color: #ff9800;
+}
+
+.white {
+    color: #ffffff;
 }
 
 .image {
@@ -141,10 +149,10 @@ p.n-p {
     max-width: 70%;
 }
 
-.img-f {
+.image img.img-f {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -408,7 +416,7 @@ section .section-title {
 }
 
 #team .card,
-#wiki-card-flip .card{
+#wiki-card-flip .card {
     border: none;
     background-color: #032A5D;
     display: flex;
@@ -559,8 +567,17 @@ a.back-card-link {
     width: 80%;
     height: 80%;
     border-radius: 50%;
+/*
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
+*/
+}
+
+.card-img-top-modelling {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .content-img {
@@ -638,6 +655,7 @@ a.back-card-link {
 /*END TEAM MEMBERS CODE*/
 
 /* Wiki cards code */
+
 .one:before,
 .two:before,
 .three:before,
@@ -662,36 +680,47 @@ a.back-card-link {
 .one:before {
     background-image: url(img/one.png);
 }
+
 .two:before {
     background-image: url(img/two.png);
 }
+
 .three:before {
     background-image: url(img/three.png);
 }
+
 .four:before {
     background-image: url(img/four.png);
 }
+
 .five:before {
     background-image: url(img/five.png);
 }
+
 .six:before {
     background-image: url(img/six.png);
 }
+
 .seven:before {
     background-image: url(img/seven.png);
 }
+
 .eight:before {
     background-image: url(img/eight.png);
 }
+
 .nine:before {
     background-image: url(img/nine.png);
 }
+
 .ten:before {
     background-image: url(img/ten.png);
 }
+
 .eleven:before {
     background-image: url(img/eleven.png);
 }
+
 .twelve:before {
     background-image: url(img/twelve.png);
 }
@@ -737,7 +766,7 @@ a.back-card-link {
 }
 
 .card-header {
-    background-color: #fff;
+    background-color: transparent;
     border-bottom: 2px solid rgb(245, 229, 178);
 }
 
@@ -767,7 +796,8 @@ a.back-card-link {
     line-height: 1.6;
 }
 
-.accordion .card-body.wiki-cont a {
+.accordion .card-body.wiki-cont a,
+.link {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1.2px;
@@ -778,6 +808,10 @@ a.back-card-link {
 
 .accordion .image img {
     border-radius: 50%;
+}
+
+.accordion .image img.img-m {
+    border-radius: 0;
 }
 
 .social-ic {
@@ -888,6 +922,11 @@ section#team {
     margin: 0px;
 }
 
+section#cl-description,
+section#protocols {
+    background-color: #fff0c366 !important;
+}
+
 section h2 {
     font-size: 50px;
 }
@@ -908,6 +947,10 @@ section h2 {
 
 .button a:hover {
     color: #fdcc52;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: none;
 }
 
@@ -1048,8 +1091,21 @@ section h2 {
     section#understanding,
     section#first-steps,
     section#default,
-    section#wiki-descriptions {
+    section#wiki-descriptions,
+    section#collaborate,
+    section#interlab,
+    section#modelling,
+    section#protocols{
         padding: 60px 0;
+    }
+    
+    section#one {
+        padding: 60px 0 30px;
+    }
+    section#two,
+    section#three,
+    section#four {
+        padding: 30px 0;
     }
 
 
