@@ -4,16 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
 @font-face {
     font-family: "CircularStd-Bold";
-    src: url('CircularStd-Bold.otf') format('opentype');
+    src: url("fonts/CircularStd-Bold.otf"); 
+}
 
+@font-face {
     font-family: "CircularStd-Medium";
-    src: url('CircularStd-Medium.otf') format('opentype');
+    src: url("fonts/CircularStd-Medium.otf");
+}
 
+@font-face {
     font-family: "CircularStd-Book";
-    src: url('CircularStd-Book.otf') format('opentype');
-
+    src: url("fonts/CircularStd-Book.otf");
 }
 
 /*EXAMPLE BUTTON TO TOP*/
