@@ -271,6 +271,20 @@ p.n-p {
     left: -64px;
 }
 
+.dots-line:before {
+    content: url(img/dots-line.png);
+    position: absolute;
+    top: 23px;
+    right: -16px;
+}
+
+.vertical-lines:before {
+    content: url(img/vertical-lines.png);
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+}
+
 .prov:before {
     content: url(img/proveta.png);
     position: absolute;
@@ -808,6 +822,12 @@ a.back-card-link {
     border-bottom: 3px solid orange;
 }
 
+.link-l {
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    border-bottom: 3px solid orange;
+}
+
 /* End accordion wiki content */
 
 .accordion .image img {
@@ -963,6 +983,10 @@ a:hover {
     letter-spacing: 1px;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .card {
     width: 20rem;
     height: 560px;
@@ -1087,6 +1111,9 @@ a:hover {
     .block-sept {
         padding: 1.2rem 0;
     }
+    .block-sept-b {
+        padding-bottom: 2.4rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1099,7 +1126,13 @@ a:hover {
     section#collaborate,
     section#interlab,
     section#modelling,
-    section#protocols{
+    section#protocols,
+    section#marjan-de-mey,
+    section#celiac-disease,
+    section#hs-st-deu,
+    section#face-to-face,
+    section#nima-sensor,
+    section#bioethics {
         padding: 60px 0;
     }
     
@@ -1110,6 +1143,12 @@ a:hover {
     section#three,
     section#four {
         padding: 30px 0;
+    }
+    
+    .position-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 
