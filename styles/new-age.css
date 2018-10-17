@@ -299,7 +299,7 @@ p.n-p {
 .microscopi:before {
     content: url(img/microscopio.png);
     position: absolute;
-    top: -95px;
+    top: -120px;
     right: 172px;
 }
 
